@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SIPAKRA ID</string>
+    <string name="daftar_alat_musik">DAFTAR ALAT MUSIK</string>
+    <string name="deskripsi_alat">deskripsi alat</string>
+    <string name="nama_alat">nama alat</string>
+    <string name="asal_alat">asal alat</string>
+    <string name="list_alat">list alat</string>
+    <string name="youtube_detail">youtube detail</string>
+    <string name="todo">TODO</string>
+    <string name="about">ABOUT</string>
+    <string name="title_activity_nav">nav</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="cinta_budaya_indonesia">CINTA BUDAYA INDONESIA</string>
+    <string name="title_activity_navigation">navigation</string>
+    <string name="profil_aplikasi">PROFIL APLIKASI</string>
+    <string name="siparka_id_merupakan_aplikasi">SIPARKA ID merupakan aplikasi...</string>
+    <string name="open" />
+    <string name="close" />
+    <string name="aplikasi_pengenalan_alat_musik_tradisional_indonesia_ini_merupakan_sebuah_alternatif_pembelajaran_untuk_mengangkat_kembali_sebuah_kebudayaan_tradisional_indonesia_yang_semakin_berkembangnya_zaman_sudah_mulai_terlupakan_dengan_dirancangnya_sebuah_aplikasi_tersebut_yang_menyediakan_informasi_terkait_20_jenis_alat_musik_gambar_alat_musik_deskripsi_mengenai_alat_musiknya_asal_alat_musik_serta_melihat_video_dari_orang_lain_mengenai_cara_memainkan_alat_musiknya">Aplikasi Pengenalan Alat Musik Tradisional Indonesia ini merupakan sebuah alternatif pembelajaran untuk mengangkat kembali sebuah kebudayaan tradisional Indonesia yang semakin berkembangnya zaman sudah mulai terlupakan. Dengan dirancangnya sebuah aplikasi tersebut yang menyediakan informasi terkait 20 jenis alat musik, gambar alat musik, deskripsi mengenai alat musiknya, asal alat musik, serta melihat video dari orang lain mengenai cara memainkan alat musiknya.</string>
+
+</resources>

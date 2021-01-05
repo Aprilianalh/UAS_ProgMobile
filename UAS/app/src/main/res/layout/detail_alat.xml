@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="310dp"
+                android:layout_height="370dp"
+                android:layout_margin="25dp"
+                android:background="#44A1CC"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/image_detail"
+                    android:layout_width="270dp"
+                    android:layout_height="270dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="30dp"
+                    android:contentDescription="@string/todo"
+                    app:srcCompat="@drawable/ic_launcher_background" />
+
+                <TextView
+                    android:id="@+id/name_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_marginTop="28dp"
+                    android:fontFamily="@font/amaranth_bold"
+                    android:gravity="center"
+                    android:text="@string/nama_alat"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="309dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="25dp"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/desc_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="30dp"
+                    android:background="#44A1CC"
+                    android:fontFamily="@font/allerta"
+                    android:justificationMode="inter_word"
+                    android:text="@string/deskripsi_alat"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    tools:targetApi="o" />
+
+                <TextView
+                    android:id="@+id/short_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="#44A1CC"
+                    android:fontFamily="@font/allerta"
+                    android:text="@string/asal_alat"
+                    android:justificationMode="inter_word"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    tools:ignore="UnusedAttribute" />
+
+                <TextView
+                    android:id="@+id/youtube_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="#44A1CC"
+                    android:fontFamily="@font/allerta"
+                    android:justificationMode="inter_word"
+                    android:text="@string/youtube_detail"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    tools:ignore="UnusedAttribute" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

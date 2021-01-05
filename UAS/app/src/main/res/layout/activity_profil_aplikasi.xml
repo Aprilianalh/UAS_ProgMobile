@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profilAplikasi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilAplikasi">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/head_main"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:background="#153E57"
+            android:fontFamily="@font/amaranth_bold"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/profil_aplikasi"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/background_light"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/logo" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/colorPrimary">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@color/colorPrimary"
+                    android:justificationMode="inter_word"
+                    android:text="@string/aplikasi_pengenalan_alat_musik_tradisional_indonesia_ini_merupakan_sebuah_alternatif_pembelajaran_untuk_mengangkat_kembali_sebuah_kebudayaan_tradisional_indonesia_yang_semakin_berkembangnya_zaman_sudah_mulai_terlupakan_dengan_dirancangnya_sebuah_aplikasi_tersebut_yang_menyediakan_informasi_terkait_20_jenis_alat_musik_gambar_alat_musik_deskripsi_mengenai_alat_musiknya_asal_alat_musik_serta_melihat_video_dari_orang_lain_mengenai_cara_memainkan_alat_musiknya"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp"
+                    tools:ignore="UnusedAttribute" />
+            </FrameLayout>
+
+        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
